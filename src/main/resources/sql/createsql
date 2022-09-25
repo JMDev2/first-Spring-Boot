@@ -1,0 +1,9 @@
+CREATE DATABASE bookings;
+\c bookings;
+
+Create table mybookings(
+ID SERIAL PRIMARY KEY,
+hotelName VARCHAR,
+pricePerNight Float,
+numOfNights int
+);
